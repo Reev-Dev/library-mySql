@@ -89,13 +89,23 @@ INSERT INTO peminjaman
     (5, 1, '2024-02-12', '2024-02-26')
 ;
 
-INSERT INTO Pengembalian
+INSERT INTO pengembalian
     (id_peminjaman, tanggal_kembali, denda)
     VALUES
     (1, '2024-02-20', NULL),
     (2, '2024-01-12', NULL),
     (3, '2024-01-13', 10.00),
     (4, '2024-02-26', NULL)
+;
+
+INSERT INTO
+    inventarisasi (id_buku, kondisi, keterangan)
+VALUES
+    (1, 'Baik', 'Buku ini dalam kondisi baik'),
+    (2, 'Rusak', 'Buku ini rusak sedikit pada bagian sudut halaman'),
+    (3, 'Baik', 'Buku ini dalam kondisi baik'),
+    (4, 'Baik', 'Buku ini dalam kondisi baik'),
+    (5, 'Baik', 'Buku ini dalam kondisi baik')
 ;
 
 ## Gabungkan Data
