@@ -89,6 +89,15 @@ INSERT INTO peminjaman
     (5, 1, '2024-02-12', '2024-02-26')
 ;
 
+INSERT INTO Pengembalian
+    (id_peminjaman, tanggal_kembali, denda)
+    VALUES
+    (1, '2024-02-20', NULL),
+    (2, '2024-01-12', NULL),
+    (3, '2024-01-13', 10.00),
+    (4, '2024-02-26', NULL)
+;
+
 ## Gabungkan Data
 
 --Show ibfk
